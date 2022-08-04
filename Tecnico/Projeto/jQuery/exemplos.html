@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- Comentários -->
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>JQuery</title>
+        <link rel="icon" href="Imagens/icon.png" />
+        <link rel="stylesheet" href="CSS.css" />
+    </head>
+    <body>
+        
+        <nav>
+        
+        <a href="paginijque.html">História</a>
+        <a href="instala%C3%A7%C3%A3o.html">Instalação</a>
+        <a href="exemplos.html">Exemplos</a>    
+          
+        </nav>
+        
+        <h1>Incluindo arquivo jQuery no HTML</h1>
+        <p>Agora que já fizemos o download e salvamos o jQuery dentro da pasta do nosso projeto, vamos referenciar a mesma utilizando o parâmetro SRC da tag SCRIPT dentro da tag HEAD.</p>
+        
+        <h4>Fazendo referencia arquivo jQuery. </h4>
+        <img src="Imagens/exemplo1.jpg" alt="ex1" width="50%"  />
+        
+        <h2>Construtor jQuery</h2>
+        <p>Com o jQuery temos que utilizar a função $() para encontrarmos um elemento HTML dentro da aplicação e utilizarmos as funções da biblioteca. Essa função [e tecnicamente conhecida como construtor ou função construtora e ela estará presente em todas as aplicações que utilizarmos o jQuery.</p>
+        
+        <p>É denominada desse modo para ser fácil de decorar, e o fato de se chamar $ evita a possibilidade de ocorrer conflitos com outras funções da biblioteca do usuário. Ocasionalmente podemos vir a utilizar alguma outra biblioteca que também tenha como uso uma função chamada $. Caso isso acontece podemos usar como alternativa a função jQuery(). </p>
+        
+        <p>O construtor faz uso do seguinte parâmetro, onde alvo é um seletor CSS para TAG, ID ou classe.</p>
+        
+        <ul>
+        
+        <li>$ (alvo)</li>
+        
+        <p>Vejamos alguns exemplo de sua utilização.</p>
+        
+            <li>$(‘h1’)</li> 
+            
+            <li>$(‘p’)</li>
+            
+            <li>$(‘#conteudo’)</li>
+            
+            <li>$(‘.teste’) </li>
+        
+        
+        
+        
+        </ul>
+        
+        <p>Como podemos ver, no exemplo acima estamos fazendo com que o jQuery encontre os elementos, H1, P, e os elementos com id="conteúdo" e a class="teste". O requisito mínimo para a utilização do jQuery é saber utilizar os seletores CSS.</p>
+        
+        <h2>Função $(document).ready()</h2>
+        
+        <p>Essa função é uma das primeiras coisas que devemos aprender no jQuery. De forma simples podemos dizer que essa função é responsável por executar o conteúdo do método ready(), tão logo o navegador tenha carregado todos os elementos HTML.</p>
+        
+        <p>O modo mais comum de utilizarmos ela é em conjunto com uma função anônima, contendo os comandos que desejamos executar. Vejamos um exemplo:</p>
+        
+        <h4>Função anônima dentro da função $(document).ready()</h4>
+        <img src="Imagens/exemplo2.jpg" alt="exe2" width="50%" />
+        <p>Vamos então unir tudo que aprendemos até agora e ver como seria o seu funcionamento na prática. Para isso, vamos unir todos os códigos que geramos até agora em um único arquivo e executarmos para ver se a mensagem de página carregada irá realmente aparecer.</p>
+        
+        <h4>Modelo jQuery completo</h4>
+        
+        <img src="Imagens/exemplo3.jpg" alt="exe3" width="50%" />
+        
+        <h4>Resultado:</h4>
+        <img src="Imagens/resultado.jpg" alt="res" />
+        
+        <p>É importante acessar a página oficial da biblioteca e consultar a documentação que ao contrário do que está aqui é bastante completa.</p>
+        
+        <h4> <a href="../P%C3%A1gina%20inicial.html">Página Inicial</a> </h4>
+        <p>Referência:
+        <a href="https://www.devmedia.com.br/jquery-tutorial/27299">Fotos e Texto</a>
+        
+        
+        </p>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<!-- Comentários -->
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Cinema</title>
+    </head>
+    <body>
+        <header>
+            <h1>Cinema </h1>
+            <ul> 
+              <li> <a href="../Index.html"> Home </a></li>
+              <li> <a href="Index_Ingresso.html"> Ingresso </a></li>
+            </ul>
+           
+        </header>
+        
+        <main> 
+        	<img src="../Imagens/Ingressos.jpg" alt="Ingresso de cinema" width="200">
+            <h2> Ingressos</h2> 
+            <form method="get"> 
+            	Contato: <input type="text" maxlength="30" name="contato" size="30" placeholder="Nome para contato" autofocus required>
+                CPF: <input type="text" maxlength="14" name="CPF" size="14" placeholder="CPF" required>
+                E-mail: <input type="email" maxlength="30" name"Email" size="30" placeholder="E-mail" required>
+                Telefone: <input type="text" maxlength="10" name="Telefone" size="10" placeholder="Telefone" required>
+                <br /> <br />
+                Filme: <select name="filme" required> 
+                       <option value="" disabled selected> Escolha...</option>
+                       <option value="capitao"> Capitão América</option>
+					   <option value="jurassic"> Jurassic Park </option>
+                       <option value="star"> Star Wars </option>
+                       <option value="toy"> Toy Story </option>
+                       </select>
+               Sala: <input type="radio" name="tipo"> 3D
+               		<input type="radio" name="tipo"> IMAX
+               		<input type="radio" name="tipo"> Premium
+               <br /> <br />
+               Quantidade: <input type="number" name="quantidade" min="1" max="10"> 
+               <input type="checkbox" name="meia" value="sim"> Meia entrada?
+               <br /> <br />
+               Observações: <br />
+               <textarea name="obs" rows="4" cols="50" placeholder="Se houver, preencha aqui as observações"> </textarea>
+               <br /> <br />    
+               <input type="submit" value="Solicitar">
+               <input type="reset" value="Limpar">
+            </form>
+        
+        </main>
+    </body>
+</html>

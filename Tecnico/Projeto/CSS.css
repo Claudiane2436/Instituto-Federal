@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    font-variant:inherit;
+    background-color:azure;
+    
+}
+
+.primeiro  {
+    text-align:justify;
+    color: black;
+    font-family: monospace;
+}
+
+.segundo {
+    color: firebrick;
+}
+
+.info {
+    color: coral;
+    font-family: sans-serif;
+    text-align:right;
+}
+
+.des {
+    color: deepskyblue;
+    text-align:center;
+}
+
+h3 {
+    color:blueviolet;
+    text-align: justify;
+    font-family: serif;
+}
+
+.container {
+    display: flex;
+    background-color:chocolate;
+    align-items:flex-end;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+}
+
+.imagem_capa {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15%;
+    color: aqua;
+    font-weight: bold;
+    font-size: 1rem;
+    
+}
+img {
+    width: 200%;
+    filter: none;
+}
+
+a {
+    color: blue;
+    font-family: fantasy;
+    font-size:  large;
+    text-decoration:none;
+}
+
+
+img:hover {
+ filter:invert(10%);
+}

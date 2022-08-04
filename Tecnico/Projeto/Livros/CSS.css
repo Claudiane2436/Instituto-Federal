@@ -1,0 +1,161 @@
+body
+{
+ 
+ text-align: center;
+ font-variant: small-caps;
+ margin: 0;
+ background-image: url(Imagens/capa.jpg);
+   
+} 
+
+#preto
+{
+ background-color: black;
+ height: 250px;
+ width: 1200px;
+ margin-left: 100px;
+}
+.container {
+    display: flex;
+    background-color: azure;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+.descricao_autora, p {
+    color:#FFF68F;
+    font-family:cursive;
+    font-size: medium;
+}
+nav
+{
+ width: 100%;
+ height: 55px;
+ position: fixed;
+ box-sizing: border-box;
+ background-color: firebrick;    
+ font-size: 23pt;
+ color:dodgerblue;
+ z-index: 5;    
+    
+} 
+
+.item_foto {
+    display: flex;
+    background-color:beige;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.item_legenda {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: dodgerblue;
+    font-size: 100%;
+    width: 15%;
+}
+
+.item_texto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    font-size: 100%;
+    margin: 5px;
+    width: 45%;
+}
+
+.item_view {
+    filter: none;
+}
+h3 {
+    color: black;
+}
+
+h1 {
+    font-family:  Georgia;
+    color: orange;
+}
+
+.foto {
+    display: flex;
+    background-color:beige;
+    align-items:stretch;
+    justify-content:flex-end;
+    width: 100%;
+    height: 200%;
+}
+.item_figura {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+    margin: auto;
+    
+}
+
+.item_descricao {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    color: black;
+    
+}
+
+table
+{
+ margin: auto;
+ color:crimson;
+}
+th, td {
+    align-items: center;
+}
+
+.video {
+    align-content: center;
+}
+
+
+
+#container {
+    display: none;
+}
+
+.des {  
+    display: flex;
+    align-items: center; 
+    padding: 95;
+    width: 80;
+    height: 220% ;
+    color:crimson;
+    font-size: large;
+    
+}
+
+.container_view {
+    display: flex;
+    align-items: center;
+    
+}
+
+h4 {
+    color: chocolate;
+}
+
+.ref {
+ box-sizing: border-box;
+ background-color:darkseagreen;    
+ color:darkgreen;
+      
+ 
+}
+
+a {
+    padding: 1%;
+}
+.item_view:hover {
+    filter: contrast(50%);
+}
