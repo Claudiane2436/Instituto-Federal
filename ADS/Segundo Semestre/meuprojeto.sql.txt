@@ -1,0 +1,76 @@
+-- phpMyAdmin SQL Dump
+-- version 5.1.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Tempo de geração: 10-Maio-2022 às 20:18
+-- Versão do servidor: 10.4.21-MariaDB
+-- versão do PHP: 8.0.10
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Banco de dados: `meuprojeto`
+--
+CREATE DATABASE IF NOT EXISTS `meuprojeto` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `meuprojeto`;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `tblusuarios`
+--
+
+CREATE TABLE `tblusuarios` (
+  `usuid` int(3) NOT NULL,
+  `usunome` varchar(50) NOT NULL,
+  `usuemail` varchar(50) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COMMENT='Tabela de usuários';
+
+--
+-- Extraindo dados da tabela `tblusuarios`
+--
+
+INSERT INTO `tblusuarios` (`usuid`, `usunome`, `usuemail`) VALUES
+(1, 'João Dias da Silva', 'joaosilvad@gmail.com'),
+(2, 'Marta Ferreira', 'martafc@gmail.com'),
+(3, 'Karem Medeiros', 'fakam@gmail.com'),
+(5, 'Betania Medeiros Chaves', 'betamed@uol.com'),
+(6, 'Dante Moreira Sales', 'dante@gmail.com'),
+(7, 'Renata Bueno', 'rebu@gmail.com'),
+(8, 'Marcia Pereira', 'marcia@gmail.com'),
+(9, 'Marcia Tania Pereira', 'tania@gmail.com'),
+(10, 'Monique Medeiros Soares', 'mmsoares@gmail.com');
+
+--
+-- Índices para tabelas despejadas
+--
+
+--
+-- Índices para tabela `tblusuarios`
+--
+ALTER TABLE `tblusuarios`
+  ADD PRIMARY KEY (`usuid`);
+
+--
+-- AUTO_INCREMENT de tabelas despejadas
+--
+
+--
+-- AUTO_INCREMENT de tabela `tblusuarios`
+--
+ALTER TABLE `tblusuarios`
+  MODIFY `usuid` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
