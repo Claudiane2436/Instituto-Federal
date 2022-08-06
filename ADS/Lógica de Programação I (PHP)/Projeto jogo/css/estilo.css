@@ -1,0 +1,142 @@
+@charset "utf-8";
+body {
+	margin:0;
+	padding-top:100px;
+	font-family:'Righteous', cursive;
+	text-align:center;
+	color:maroon;
+}
+h3 {
+	margin:0;
+	font-size:2rem;
+	text-shadow: 3px 3px rgb(255, 240, 245);
+	}
+
+form {
+	background-color:blanchedalmond;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding:20px;
+	margin:30px auto;
+	border:double;
+	width:80%;
+	}
+
+.botao {
+	font-size:1.25rem;
+	padding:5px;
+	border-radius:4px;
+	width:30%;
+	font-family:inherit;
+	text-align:center;
+	border:none;
+	margin-bottom:20px;
+	background-color:dimgrey;
+	color:lavenderblush;
+	}
+	
+
+#usuario, #senha {
+	font-family:inherit;
+	font-size:1rem;
+	width:80%;
+	height: 20px;
+	border:none;
+	border-radius:4px;
+	background-position:5px 5px;
+	background-repeat:no-repeat;
+	padding: 10px 5px 5px 20px;
+	margin-bottom:20px;
+	border:double;
+}
+
+.cor{
+	background-color:blanchedalmond;
+	margin:30px auto;
+}
+
+.botaope {
+	width:20%;
+	font-family:inherit;
+	text-align:center;
+	background-color:dimgrey;
+	color:lavenderblush;
+	}
+
+.grande{
+	background-color:blanchedalmond;
+	margin:30px auto;
+	width:70%;
+}
+
+.botaope:hover{
+	background-color:hotpink;
+}
+
+.cas{
+	font-size: 20px;
+	text-align:center;
+}
+#tabu{
+	width: 50%;
+	height: 70%;
+}
+.parado{
+	color: blue;
+}
+
+#peca1{
+	height: 50px;
+	margin-right: 20px;
+	
+}
+
+.volta{
+	color: red;
+}
+
+#peca2{
+	height: 50px;
+	margin-right: 500px;
+	align-items: center;
+}
+.horitontal{
+	align-items: center;
+	display: flex;
+}
+@media (min-width: 768px) {
+	form{
+		width:50%;
+		margin-bottom:160px;
+		}
+		.botao{
+		width:30%;
+		}
+	#usuario, #senha{
+		width:80%;
+		height: 20px;
+		font-size:1.25rem;
+		padding: 5px 5px 5px 0px;
+		}
+		.botao:hover{
+			background-color:hotpink}
+		h3{
+		font-size:2.5rem;
+		}
+
+		#peca1{
+			height: 50px;
+			margin-right: 20px;
+			
+		}
+		
+		#peca2{
+			height: 50px;
+			margin-right: 500px;
+			
+		}
+		
+}
+
+	
+
