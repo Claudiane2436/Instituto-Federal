@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1665212148 source:c:\users\visitante\desktop\ifsp\terceiro semestre\estrutura de dados ii (sexta)\organizar\projeto\ordenacao.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/time.h>
+	"ordenacao.h"
+
+1665212109 c:\users\visitante\desktop\ifsp\terceiro semestre\estrutura de dados ii (sexta)\organizar\projeto\ordenacao.h
+
+1665212565 source:c:\users\visitante\desktop\ifsp\terceiro semestre\estrutura de dados ii (sexta)\organizar\projeto\main.c
+	"ordenacao.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/time.h>
+
