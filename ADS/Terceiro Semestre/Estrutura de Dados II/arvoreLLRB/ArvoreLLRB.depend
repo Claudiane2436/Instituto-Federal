@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1669136447 source:c:\users\visitante\desktop\ifsp\terceiro semestre\estrutura de dados ii (sexta)\arvorellrb\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arvoreLLRB.h"
+
+1669137476 c:\users\visitante\desktop\ifsp\terceiro semestre\estrutura de dados ii (sexta)\arvorellrb\arvorellrb.h
+
+1669137474 source:c:\users\visitante\desktop\ifsp\terceiro semestre\estrutura de dados ii (sexta)\arvorellrb\arvorellrb.c
+	<stdio.h>
+	<stdlib.h>
+	"arvoreLLRB.h"
+
